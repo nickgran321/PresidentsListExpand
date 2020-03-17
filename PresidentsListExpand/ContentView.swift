@@ -3,7 +3,7 @@
 //  SwiftUIDynamicList
 //
 //  Created by Nicholas Grant on 03/20/2020.
-//  Copyright © 2019 Rebeloper. All rights reserved.
+//  Copyright © 2020 Rebeloper. All rights reserved.
 //
 
 import SwiftUI
