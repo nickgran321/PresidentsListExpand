@@ -16,6 +16,11 @@
 		723EA02F24208E5100160B4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 723EA02D24208E5100160B4F /* LaunchScreen.storyboard */; };
 		723EA03A24208E5100160B4F /* PresidentsListExpandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723EA03924208E5100160B4F /* PresidentsListExpandTests.swift */; };
 		723EA04524208E5100160B4F /* PresidentsListExpandUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723EA04424208E5100160B4F /* PresidentsListExpandUITests.swift */; };
+		723EA05524208EBC00160B4F /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723EA05424208EBC00160B4F /* Service.swift */; };
+		723EA0572420964300160B4F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723EA0562420964300160B4F /* Constants.swift */; };
+		723EA0592420966800160B4F /* ListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723EA0582420966800160B4F /* ListDetailView.swift */; };
+		723EA05B2420967D00160B4F /* ListElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723EA05A2420967D00160B4F /* ListElement.swift */; };
+		723EA05D2420969900160B4F /* ListElementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723EA05C2420969900160B4F /* ListElementView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		723EA04024208E5100160B4F /* PresidentsListExpandUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PresidentsListExpandUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		723EA04424208E5100160B4F /* PresidentsListExpandUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresidentsListExpandUITests.swift; sourceTree = "<group>"; };
 		723EA04624208E5100160B4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		723EA05424208EBC00160B4F /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Service.swift; path = ../../PresidentsList/PresidentsList/Service.swift; sourceTree = "<group>"; };
+		723EA0562420964300160B4F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		723EA0582420966800160B4F /* ListDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDetailView.swift; sourceTree = "<group>"; };
+		723EA05A2420967D00160B4F /* ListElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListElement.swift; sourceTree = "<group>"; };
+		723EA05C2420969900160B4F /* ListElementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListElementView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +113,12 @@
 			children = (
 				723EA01F24208E5000160B4F /* AppDelegate.swift */,
 				723EA02124208E5000160B4F /* SceneDelegate.swift */,
+				723EA0562420964300160B4F /* Constants.swift */,
+				723EA05424208EBC00160B4F /* Service.swift */,
 				723EA02624208E5000160B4F /* ContentView.swift */,
+				723EA0582420966800160B4F /* ListDetailView.swift */,
+				723EA05A2420967D00160B4F /* ListElement.swift */,
+				723EA05C2420969900160B4F /* ListElementView.swift */,
 				723EA02824208E5100160B4F /* Assets.xcassets */,
 				723EA02D24208E5100160B4F /* LaunchScreen.storyboard */,
 				723EA03024208E5100160B4F /* Info.plist */,
@@ -272,8 +287,13 @@
 			files = (
 				723EA02524208E5000160B4F /* PresidentsListExpand.xcdatamodeld in Sources */,
 				723EA02024208E5000160B4F /* AppDelegate.swift in Sources */,
+				723EA05B2420967D00160B4F /* ListElement.swift in Sources */,
 				723EA02724208E5000160B4F /* ContentView.swift in Sources */,
 				723EA02224208E5000160B4F /* SceneDelegate.swift in Sources */,
+				723EA05524208EBC00160B4F /* Service.swift in Sources */,
+				723EA0572420964300160B4F /* Constants.swift in Sources */,
+				723EA0592420966800160B4F /* ListDetailView.swift in Sources */,
+				723EA05D2420969900160B4F /* ListElementView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

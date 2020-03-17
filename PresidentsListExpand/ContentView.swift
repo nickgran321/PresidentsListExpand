@@ -1,16 +1,22 @@
 //
 //  ContentView.swift
-//  PresidentsListExpand
+//  SwiftUIDynamicList
 //
-//  Created by Nicholas Grant on 3/17/20.
-//  Copyright © 2020 nicholasgrant. All rights reserved.
+//  Created by Nicholas Grant on 03/20/2020.
+//  Copyright © 2019 Rebeloper. All rights reserved.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        NavigationView {
+            List(Service.listData) { item in
+                NavigationLink(destination: ListDetailView(item: item)) {
+                    ListElementView(item: item)
+                }
+            }.navigationBarTitle("The Presidents")
+        }
     }
 }
 
@@ -19,3 +25,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
